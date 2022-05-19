@@ -1,0 +1,28 @@
+def menu():
+    print ("[1] Chicken Burger")
+    print ("[2] Beaf Burger")
+    print ("[0] Exite the program")
+    
+menu()
+option = int(input("enter the number of your favorite burger"))
+
+while option != 0:
+    if option == 1:
+        print ("Would you like to have:")
+        print ("[1] Fanta")
+        print ("[2] Pepsi")
+        print ("[3] Canada dry")
+
+    elif option == 2:
+        print ("would you like to have:")
+        print ("[1] Coca-cola")
+        print ("[2] Seven up")
+        print ("[3] Sprite")
+
+    else:
+        print ("invalid option")
+        
+    print()
+    menu()
+    option = int(input("Enter the number of your favorite drink"))
+print ("thank you for using this program")
